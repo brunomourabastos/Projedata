@@ -1,11 +1,12 @@
 # Projedata - Teste Prático - Iniflex
 
+Teste técnico consiste em fazer diversas manipulações de dados.
+
 ## Ferramenta Utilizada: Eclipse
 
-Repositório para teste prático de programação.
+## Questões do teste técnico:
 
-
-Questões do teste técnico:
+As respostas, descritas nos detalhes abaixo, são imagens do console do Eclipse.
 
 Considerando que uma indústria possui as pessoas/funcionários abaixo:
 
