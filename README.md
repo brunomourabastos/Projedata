@@ -6,7 +6,7 @@ Teste técnico consiste em fazer diversas manipulações de dados.
 
 ## Questões do teste técnico:
 
-As respostas, descritas nos detalhes abaixo, são imagens do console do Eclipse.
+Observação: As respostas, descritas nos detalhes abaixo, são imagens da saída do console do Eclipe. Para obter as respostas, basta executar a classe Principal.
 
 Considerando que uma indústria possui as pessoas/funcionários abaixo:
 
