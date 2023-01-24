@@ -10,14 +10,19 @@ Considerando que uma indústria possui as pessoas/funcionários abaixo:
 Diante disso, você deve desenvolver um projeto java, com os seguintes requisitos:
 
 1– Classe Pessoa com os atributos: nome (String) e data nascimento (LocalDate).
-<details>
-  Aqui, a resposta do primeiro desafio
-</details>
 
 2 – Classe Funcionário que estenda a classe Pessoa, com os atributos: salário (BigDecimal) e função (String).
 
 3 – Deve conter uma classe Principal para executar as seguintes ações:
-3.1 – Inserir todos os funcionários, na mesma ordem e informações da tabela acima.
+3.1 – Inserir todos os funcionários, na mesma ordem e informações da tabela.
+<details>
+  <summary>
+    Resposta:
+  </summary>
+  
+  
+</details>
+
 3.2 – Remover o funcionário “João” da lista.
 3.3 – Imprimir todos os funcionários com todas suas informações, sendo que:
 • informação de data deve ser exibido no formato dd/mm/aaaa;
