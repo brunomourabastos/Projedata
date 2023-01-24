@@ -18,8 +18,8 @@ Diante disso, você deve desenvolver um projeto java, com os seguintes requisito
 <details>
   <summary>
     Resposta:
-    <img src="./3-01-03 - Lista completa.png"/>
   </summary>
+  <img src="./3-01-03 - Lista completa.png"/>
   
   
 </details>
