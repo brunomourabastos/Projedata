@@ -18,7 +18,7 @@ Diante disso, você deve desenvolver um projeto java, com os seguintes requisito
 <details>
   <summary>
     Resposta:
-    <img source={"3-01-03 - Lista completa.png"}/>
+    <img src={"3-01-03 - Lista completa.png"}/>
   </summary>
   
   
