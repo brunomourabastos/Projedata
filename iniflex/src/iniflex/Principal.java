@@ -1,7 +1,9 @@
 package iniflex;
+import java.text.NumberFormat;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
+import java.util.Locale;
 import java.util.stream.Collectors;
 import java.util.Map;
 import java.util.Set;
@@ -129,11 +131,14 @@ public class Principal {
 		System.out.println("--------------------------------------------------------");
 		
 		//Imprimir total dos salários:
-				System.out.println();
-				System.out.printf("3.11 - Total Salarios: R$ "
-						+ "%.2f%n", 
-						funcionarios.stream()
-						.mapToDouble(Funcionario::getSalarioDouble).reduce(0, (value1, value2) -> value1 + value2));
+		System.out.println();
+		Locale localbr = new Locale("pt", "BR");
+		NumberFormat dinheiro = NumberFormat.getCurrencyInstance(localbr);
+		double totalSalario = 0.00;
+		totalSalario = funcionarios.stream().mapToDouble(Funcionario::getSalarioDouble).reduce(0, (value1, value2) -> value1 + value2);
+
+		System.out.printf("3.11 - Total Salarios: " + dinheiro.format(totalSalario));
+		System.out.println();
 		
 		//Imprimir quantos salários mínimos, cada funcionário ganha:
 		System.out.println();
